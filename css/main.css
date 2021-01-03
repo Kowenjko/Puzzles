@@ -1,0 +1,69 @@
+tr,
+td {
+    border: 1px solid cyan;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 4px solid cyan;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+}
+
+caption {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.answer {
+    width: 200px;
+}
+
+.answer div,
+.answer>img {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.answer>img {
+    width: 45px;
+    margin: 0 auto;
+    display: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    height: 26px;
+}
+
+input[type=text]:focus {
+    background-color: #dcf3ef;
+    border: cyan solid 2xp;
+    border-color: cyan;
+
+}
+
+button {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.reset {
+    padding: 20px;
+    text-align: center;
+}
+.reset button{
+    padding: 5px;
+}
+
